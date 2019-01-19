@@ -2,7 +2,7 @@
   "name": "dc_clicky_game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://cheddi123.github.io/DCClicky_Game",
+  "homepage": "https://cheddi123.github.io/DCClicky_Game",
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
@@ -14,7 +14,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
